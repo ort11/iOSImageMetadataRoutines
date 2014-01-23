@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39CFB3E01891BDC2008646A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CFB3DF1891BDC2008646A0 /* Foundation.framework */; };
+		39CFB3E51891BDC2008646A0 /* iOSImageMetaDataRoutines.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 39CFB3E41891BDC2008646A0 /* iOSImageMetaDataRoutines.h */; };
+		39CFB3E71891BDC2008646A0 /* iOSImageMetaDataRoutines.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CFB3E61891BDC2008646A0 /* iOSImageMetaDataRoutines.m */; };
+		39CFB3EE1891BDC2008646A0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CFB3ED1891BDC2008646A0 /* XCTest.framework */; };
+		39CFB3EF1891BDC2008646A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CFB3DF1891BDC2008646A0 /* Foundation.framework */; };
+		39CFB3F11891BDC2008646A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CFB3F01891BDC2008646A0 /* UIKit.framework */; };
+		39CFB3F41891BDC2008646A0 /* libiOSImageMetaDataRoutines.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CFB3DC1891BDC2008646A0 /* libiOSImageMetaDataRoutines.a */; };
+		39CFB3FA1891BDC2008646A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39CFB3F81891BDC2008646A0 /* InfoPlist.strings */; };
+		39CFB3FC1891BDC2008646A0 /* iOSImageMetaDataRoutinesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39CFB3FB1891BDC2008646A0 /* iOSImageMetaDataRoutinesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39CFB3F21891BDC2008646A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39CFB3D41891BDC1008646A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39CFB3DB1891BDC2008646A0;
+			remoteInfo = iOSImageMetaDataRoutines;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		39CFB3DA1891BDC2008646A0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				39CFB3E51891BDC2008646A0 /* iOSImageMetaDataRoutines.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		39CFB3DC1891BDC2008646A0 /* libiOSImageMetaDataRoutines.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiOSImageMetaDataRoutines.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CFB3DF1891BDC2008646A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39CFB3E31891BDC2008646A0 /* iOSImageMetaDataRoutines-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSImageMetaDataRoutines-Prefix.pch"; sourceTree = "<group>"; };
+		39CFB3E41891BDC2008646A0 /* iOSImageMetaDataRoutines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSImageMetaDataRoutines.h; sourceTree = "<group>"; };
+		39CFB3E61891BDC2008646A0 /* iOSImageMetaDataRoutines.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSImageMetaDataRoutines.m; sourceTree = "<group>"; };
+		39CFB3EC1891BDC2008646A0 /* iOSImageMetaDataRoutinesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSImageMetaDataRoutinesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39CFB3ED1891BDC2008646A0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		39CFB3F01891BDC2008646A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		39CFB3F71891BDC2008646A0 /* iOSImageMetaDataRoutinesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSImageMetaDataRoutinesTests-Info.plist"; sourceTree = "<group>"; };
+		39CFB3F91891BDC2008646A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39CFB3FB1891BDC2008646A0 /* iOSImageMetaDataRoutinesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSImageMetaDataRoutinesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39CFB3D91891BDC2008646A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CFB3E01891BDC2008646A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39CFB3E91891BDC2008646A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CFB3EE1891BDC2008646A0 /* XCTest.framework in Frameworks */,
+				39CFB3F11891BDC2008646A0 /* UIKit.framework in Frameworks */,
+				39CFB3EF1891BDC2008646A0 /* Foundation.framework in Frameworks */,
+				39CFB3F41891BDC2008646A0 /* libiOSImageMetaDataRoutines.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39CFB3D31891BDC1008646A0 = {
+			isa = PBXGroup;
+			children = (
+				39CFB3E11891BDC2008646A0 /* iOSImageMetaDataRoutines */,
+				39CFB3F51891BDC2008646A0 /* iOSImageMetaDataRoutinesTests */,
+				39CFB3DE1891BDC2008646A0 /* Frameworks */,
+				39CFB3DD1891BDC2008646A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39CFB3DD1891BDC2008646A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39CFB3DC1891BDC2008646A0 /* libiOSImageMetaDataRoutines.a */,
+				39CFB3EC1891BDC2008646A0 /* iOSImageMetaDataRoutinesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39CFB3DE1891BDC2008646A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39CFB3DF1891BDC2008646A0 /* Foundation.framework */,
+				39CFB3ED1891BDC2008646A0 /* XCTest.framework */,
+				39CFB3F01891BDC2008646A0 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39CFB3E11891BDC2008646A0 /* iOSImageMetaDataRoutines */ = {
+			isa = PBXGroup;
+			children = (
+				39CFB3E41891BDC2008646A0 /* iOSImageMetaDataRoutines.h */,
+				39CFB3E61891BDC2008646A0 /* iOSImageMetaDataRoutines.m */,
+				39CFB3E21891BDC2008646A0 /* Supporting Files */,
+			);
+			path = iOSImageMetaDataRoutines;
+			sourceTree = "<group>";
+		};
+		39CFB3E21891BDC2008646A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39CFB3E31891BDC2008646A0 /* iOSImageMetaDataRoutines-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39CFB3F51891BDC2008646A0 /* iOSImageMetaDataRoutinesTests */ = {
+			isa = PBXGroup;
+			children = (
+				39CFB3FB1891BDC2008646A0 /* iOSImageMetaDataRoutinesTests.m */,
+				39CFB3F61891BDC2008646A0 /* Supporting Files */,
+			);
+			path = iOSImageMetaDataRoutinesTests;
+			sourceTree = "<group>";
+		};
+		39CFB3F61891BDC2008646A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39CFB3F71891BDC2008646A0 /* iOSImageMetaDataRoutinesTests-Info.plist */,
+				39CFB3F81891BDC2008646A0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39CFB3DB1891BDC2008646A0 /* iOSImageMetaDataRoutines */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39CFB3FF1891BDC2008646A0 /* Build configuration list for PBXNativeTarget "iOSImageMetaDataRoutines" */;
+			buildPhases = (
+				39CFB3D81891BDC2008646A0 /* Sources */,
+				39CFB3D91891BDC2008646A0 /* Frameworks */,
+				39CFB3DA1891BDC2008646A0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSImageMetaDataRoutines;
+			productName = iOSImageMetaDataRoutines;
+			productReference = 39CFB3DC1891BDC2008646A0 /* libiOSImageMetaDataRoutines.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		39CFB3EB1891BDC2008646A0 /* iOSImageMetaDataRoutinesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39CFB4021891BDC2008646A0 /* Build configuration list for PBXNativeTarget "iOSImageMetaDataRoutinesTests" */;
+			buildPhases = (
+				39CFB3E81891BDC2008646A0 /* Sources */,
+				39CFB3E91891BDC2008646A0 /* Frameworks */,
+				39CFB3EA1891BDC2008646A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39CFB3F31891BDC2008646A0 /* PBXTargetDependency */,
+			);
+			name = iOSImageMetaDataRoutinesTests;
+			productName = iOSImageMetaDataRoutinesTests;
+			productReference = 39CFB3EC1891BDC2008646A0 /* iOSImageMetaDataRoutinesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39CFB3D41891BDC1008646A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = jjjconsulting;
+			};
+			buildConfigurationList = 39CFB3D71891BDC1008646A0 /* Build configuration list for PBXProject "iOSImageMetaDataRoutines" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39CFB3D31891BDC1008646A0;
+			productRefGroup = 39CFB3DD1891BDC2008646A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39CFB3DB1891BDC2008646A0 /* iOSImageMetaDataRoutines */,
+				39CFB3EB1891BDC2008646A0 /* iOSImageMetaDataRoutinesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39CFB3EA1891BDC2008646A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CFB3FA1891BDC2008646A0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39CFB3D81891BDC2008646A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CFB3E71891BDC2008646A0 /* iOSImageMetaDataRoutines.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39CFB3E81891BDC2008646A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39CFB3FC1891BDC2008646A0 /* iOSImageMetaDataRoutinesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39CFB3F31891BDC2008646A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39CFB3DB1891BDC2008646A0 /* iOSImageMetaDataRoutines */;
+			targetProxy = 39CFB3F21891BDC2008646A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39CFB3F81891BDC2008646A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39CFB3F91891BDC2008646A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39CFB3FD1891BDC2008646A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39CFB3FE1891BDC2008646A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39CFB4001891BDC2008646A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/iOSImageMetaDataRoutines.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSImageMetaDataRoutines/iOSImageMetaDataRoutines-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		39CFB4011891BDC2008646A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/iOSImageMetaDataRoutines.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSImageMetaDataRoutines/iOSImageMetaDataRoutines-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		39CFB4031891BDC2008646A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSImageMetaDataRoutines/iOSImageMetaDataRoutines-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOSImageMetaDataRoutinesTests/iOSImageMetaDataRoutinesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		39CFB4041891BDC2008646A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSImageMetaDataRoutines/iOSImageMetaDataRoutines-Prefix.pch";
+				INFOPLIST_FILE = "iOSImageMetaDataRoutinesTests/iOSImageMetaDataRoutinesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39CFB3D71891BDC1008646A0 /* Build configuration list for PBXProject "iOSImageMetaDataRoutines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39CFB3FD1891BDC2008646A0 /* Debug */,
+				39CFB3FE1891BDC2008646A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39CFB3FF1891BDC2008646A0 /* Build configuration list for PBXNativeTarget "iOSImageMetaDataRoutines" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39CFB4001891BDC2008646A0 /* Debug */,
+				39CFB4011891BDC2008646A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39CFB4021891BDC2008646A0 /* Build configuration list for PBXNativeTarget "iOSImageMetaDataRoutinesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39CFB4031891BDC2008646A0 /* Debug */,
+				39CFB4041891BDC2008646A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39CFB3D41891BDC1008646A0 /* Project object */;
+}
